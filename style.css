@@ -1,0 +1,191 @@
+.topnav {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+  padding: 17px 0;
+}
+.topnav a {
+  float: inherit;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 180px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.hover {
+  background-color: #4caf50;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+  justify-content: space-around;
+}
+.flex-container > div {
+  width: 75px;
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 30px;
+}
+.home {
+  background-image: url(image/cafe.jpg);
+  min-height: 75%;
+  background-size: cover;
+  height: 700px;
+  margin-top: -20px;
+}
+.cafe {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  color: #f2f2f2;
+  font-size: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.duration {
+  background-color: black;
+  color: #f2f2f2;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  position: absolute;
+  top: 100%;
+  left: 3%;
+}
+.location {
+  color: #f2f2f2 !important;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  position: absolute;
+  left: 88%;
+  top: 100%;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.about {
+  background-color: black;
+  color: #f2f2f2;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  position: absolute;
+  top: auto;
+  left: 45%;
+}
+h5 {
+  font-size: 18px;
+  height: 100px;
+  padding-top: 15px;
+}
+p {
+  font-size: 18px;
+  line-height: 25px;
+}
+.the {
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  background-color: black;
+  color: #f2f2f2;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  position: absolute;
+  left: 45%;
+  font-size: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-left: auto;
+  margin-right: auto;
+}
+h4 {
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 2px 90px;
+  font-size: 25px;
+}
+.coffe {
+  box-sizing: inherit;
+  border-style: none;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 32px;
+  margin-left: 230px;
+  margin-right: 20px;
+}
+.where {
+  background-color: black;
+  color: #f2f2f2;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  position: absolute;
+  left: 45%;
+  font-size: 20px;
+}
+.map {
+  box-sizing: inherit;
+  border-style: none;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 32px;
+}
+.last {
+  background-color: black;
+  color: #f2f2f2;
+  display: inline-block;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: ;
+}
+.button {
+  box-sizing: inherit;
+  font: inherit;
+  margin: 0;
+  text-transform: none;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  color: #fff !important;
+  background-color: #000 !important;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+}
+body {
+  border-spacing: 0px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
